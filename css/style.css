@@ -1,0 +1,53 @@
+@charset "utf-8";
+/* CSS Document */
+*, html, body {
+	margin:0; 
+	padding:0; 
+	list-style: none;
+	text-decoration: none;
+	outline: 0;
+	box-sizing: border-box;
+}
+body {
+	height: 100vh;
+	background: none;
+	position: relative;
+}
+#Elem {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+#mouse {
+	width: 100px;
+	height: 99px;
+	background: url(../image/mouse.png);
+	position: absolute;
+	bottom: 0;
+	right: 0;
+    z-index: 1000;
+    transition: 0;    
+}
+#cat {
+	width: 100px;
+	height: 181px;
+	background: url(../image/cat.png);
+	transition: 1s;
+	position: absolute;
+	top: 0;
+	left: 0;
+    z-index: 10000;
+    transition: 2s;
+}
+
+#timer {
+    width: 500px;
+	height: 200px;
+    position: absolute;
+    bottom: 0;
+	right: 0;
+    top: 0;
+	left: 0;
+    margin: auto;
+    
+}
